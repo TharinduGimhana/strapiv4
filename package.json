@@ -24,27 +24,20 @@
     "roboto-font": "^0.1.0",
     "semver": "^7.3.5",
     "shoutout-sdk": "^3.0.4",
-    "strapi": "3.3.0",
-    "strapi-admin": "3.3.0",
-    "strapi-connector-bookshelf": "^3.6.9",
     "strapi-connector-mongoose": "3.3.0",
-    "strapi-plugin-content-manager": "3.3.0",
-    "strapi-plugin-content-type-builder": "3.3.0",
-    "strapi-plugin-documentation": "^3.3.0",
-    "strapi-plugin-email": "3.3.0",
-    "strapi-plugin-graphql": "3.3.0",
-    "strapi-plugin-upload": "3.3.0",
-    "strapi-plugin-users-permissions": "3.3.0",
-    "strapi-provider-email-sendgrid": "^3.3.4",
-    "strapi-utils": "3.3.0",
-    "twilio": "^3.52.0"
+    "twilio": "^3.52.0",
+    "@strapi/strapi": "4.19.1",
+    "@strapi/plugin-documentation": "4.19.1",
+    "@strapi/plugin-graphql": "4.19.1",
+    "@strapi/plugin-users-permissions": "4.19.1",
+    "@strapi/provider-email-sendgrid": "4.19.1"
   },
   "author": "A Strapi developer",
   "strapi": {
     "uuid": "40899ca3-7120-417a-8949-0cc2f3a5caa1"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": ">=14.19.1 <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT",
